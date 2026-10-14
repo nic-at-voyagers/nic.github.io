@@ -1,0 +1,150 @@
+@font-face {
+      font-family: 'Comic Sans MS';
+      src: url(comic.ttf);
+}
+
+:root {
+      /* Catppuccin Mocha Colors */
+      --rosewater: #f5e0dc;
+      --flamingo: #f2cdcd;
+      --pink: #f5c2e7;
+      --mauve: #cba6f7;
+      --red: #f38ba8;
+      --maroon: #eba0ac;
+      --peach: #fab387;
+      --yellow: #f9e2af;
+      --green: #a6e3a1;
+      --teal: #94e2d5;
+      --sky: #89dceb;
+      --sapphire: #74c7ec;
+      --blue: #89b4fa;
+      --lavender: #b4befe;
+      --text: #f6f6dd;
+      --subtext1: #dfdfc9;
+      --subtext0: #c7c7b3;
+      --overlay2: #9399b2;
+      --overlay1: #7f849c;
+      --overlay0: #6c7086;
+      --surface2: #585b70;
+      --surface1: #45475a;
+      --surface0: #313244;
+      --base: #1e1e2e;
+      --mantle: #181825;
+      --crust: #11111b;
+}
+
+body {
+      background-image: url('icon/tile.png');
+      background-color: var(--base);
+      image-rendering: pixelated;
+      color: var(--text);
+      font-family: 'Comic Sans MS';
+      line-height: 1.6;
+}
+
+h1 {
+      color: var(--text);
+      font-family: 'Comic Sans MS';
+}
+
+h2 {
+      color: var(--rosewater);
+      font-family: 'Comic Sans MS';
+}
+
+p {
+      color: var(--text);
+      font-family: 'Comic Sans MS';
+}
+
+main {
+      max-width: 1024px;
+      margin:auto;
+}
+
+#container {
+      position: relative;
+      margin-left: 150px;
+}
+
+#content {
+      padding-bottom:3em;
+      padding-top:50px;
+      margin-bottom:5pt;
+}
+
+.box {
+      background-color: var(--mantle);
+      padding: 10pt;
+      margin-bottom: 5pt;
+      border-style: dotted;
+      border-color: var(--text);
+      border-width: 1pt;
+}
+
+#footer {
+      align:center;
+      border-top: dotted;
+      border-color: #cdd6f4;
+      position: relative;
+      text-align: center;
+      color: #cdd6f4;
+      bottom: 0;
+      padding-top:3em;
+      margin-left:650px;
+      margin-right:650px;
+}
+
+.highlight {
+      background-color: var(--surface0);
+      padding: 2px 4px;
+      border-radius: 3px;
+}
+
+.button {
+      background-color: var(--blue);
+      color: var(--crust);
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+}
+
+.button:hover {
+      background-color: var(--sapphire);
+}
+
+.code {
+      background-color: var(--surface1);
+      color: var(--green);
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-family: monospace;
+}
+
+/* Additional classes for each color */
+.rosewater { color: var(--rosewater); }
+.flamingo { color: var(--flamingo); }
+.pink { color: var(--pink); }
+.mauve { color: var(--mauve); }
+.red { color: var(--red); }
+.maroon { color: var(--maroon); }
+.peach { color: var(--peach); }
+.yellow { color: var(--yellow); }
+.green { color: var(--green); }
+.teal { color: var(--teal); }
+.sky { color: var(--sky); }
+.sapphire { color: var(--sapphire); }
+.blue { color: var(--blue); }
+.lavender { color: var(--lavender); }
+.subtext1 { color: var(--subtext1); }
+.subtext0 { color: var(--subtext0); }
+.overlay2 { color: var(--overlay2); }
+.overlay1 { color: var(--overlay1); }
+.overlay0 { color: var(--overlay0); }
+.surface2 { color: var(--surface2); }
+.surface1 { color: var(--surface1); }
+.surface0 { color: var(--surface0); }
+.text { color: var(--text); }
+.mantle { color: var(--mantle); }
+.crust { color: var(--crust); }
